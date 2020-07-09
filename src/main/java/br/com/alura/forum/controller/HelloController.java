@@ -10,7 +10,7 @@ public class HelloController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String hello() {
-		return "INICIAL!";
+		return "Hello Meu Amigo!!!";
 	}
 
 }
